@@ -1,4 +1,4 @@
-Scenario 1: Age Discount
+//Scenario 1: Age Discount
 
 
 BEGIN
@@ -15,7 +15,7 @@ END;
 
 
 
-Scenario 2: VIP Status
+//Scenario 2: VIP Status
 
 
 BEGIN
@@ -32,7 +32,7 @@ END;
 
 
 
-Scenario 3: Loan Reminders
+//Scenario 3: Loan Reminders
 
 
 
