@@ -1,0 +1,13 @@
+<h2>Student Profile</h2>
+<p><strong>Name:</strong> {{ studentName }}</p>
+<p><strong>Email:</strong> {{ studentEmail }}</p>
+
+<button (click)="onLogout()">Logout</button>
+
+<h3>My Courses</h3>
+<p *ngIf="loading$ | async">Loading courses...</p>
+<ul *ngIf="!(loading$ | async)">
+  <li *ngFor="let course of courses$ | async">
+    {{ course.name }} ({{ course.code }}) — {{ course.gradeStatus }}
+  </li>
+</ul>
