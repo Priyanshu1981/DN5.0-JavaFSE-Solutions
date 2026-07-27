@@ -1,0 +1,30 @@
+.card {
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px;
+  width: 260px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ongoing {
+  background-color: #fff8e1;
+  border-left: 6px solid #f9a825;
+}
+
+.completed {
+  background-color: #e8f5e9;
+  border-left: 6px solid #43a047;
+}
+
+.title {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
